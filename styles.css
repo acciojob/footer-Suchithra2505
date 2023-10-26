@@ -76,7 +76,7 @@ body{
 	display-content:left;
 	font-size:10px;
 }
-.services{
+.Links{
 	display:flex;
 	flex-direction:column;
 	flex-wrap:wrap-around;
