@@ -59,7 +59,7 @@ body{
 	height:1px;
 	width:1px;
 }
-.link-boxes{
+div.link-boxes{
 	color:white;
 	display:flex;
 	align-items:left;
