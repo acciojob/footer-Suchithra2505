@@ -1,1 +1,106 @@
 /* your code here */
+.content{
+	height:100vh;
+	width:100vw;
+	flex-wrap:wrap;
+}
+.top{gap:10px;}
+u{color:white;}
+body{
+	background-color:black;
+}
+.logo_name{color:white;
+		   
+		  }
+.media-icons{
+	display:flex;
+	gap:5px;
+	flex-direction:row;
+	justify-content:right;
+}
+.fa {
+  padding:20px;
+  font-size: 30px;
+  width: 1px;
+	height:1px
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+	height:1px;
+	width:1px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+	height:1px;
+	width:1px;
+}
+.fa-instagram {
+  background: hotpink;
+  color: white;
+	height:1px;
+	width:1px;
+}
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+	height:1px;
+	width:1px;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+	height:1px;
+	width:1px;
+}
+.link-boxes{
+	color:white;
+	display:flex;
+	align-items:left;
+	flex-direction:row;
+	flex-wrap:wrap-around;
+	gap:25px;
+}
+
+.links{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap-around;
+	gap:10px;
+	display-content:left;
+	font-size:10px;
+}
+.services{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap-around;
+	display-content:center;
+
+	
+}
+.bottom-details{
+	height:10vh;
+	width:100vw;
+	background-color:grey;
+	color:white;
+	font-size:15px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap-around;
+	gap:100px;
+}
+#p1{
+	display:flex;
+	display-content:left;
+flex-wrap:wrap;
+}
+#p2{
+	display:flex;
+	display-content:right;
+}
